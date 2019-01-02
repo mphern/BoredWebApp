@@ -15,19 +15,19 @@ namespace BoredWebApp.Controllers
 
         public ActionResult One()
         {
-            return View();
+            return RedirectToAction("Index", "One");
         }
 
         public ActionResult Specific()
         {
 
-            return View();
+            return RedirectToAction("Index", "Specific");
         }
 
         public ActionResult Multiple()
         {
 
-            return View();
+            return RedirectToAction("Index", "Multiple");
         }
     }
 }
